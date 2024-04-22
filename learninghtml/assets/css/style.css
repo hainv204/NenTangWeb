@@ -1,0 +1,58 @@
+/*đổi màu nền*/
+body
+{
+    background-color:#F3E9FF;
+}
+/*tiêu đề*/
+.h-title
+{
+    color:#5831BE;
+    text-align: center;
+    font-size:50px;
+/*Hiển thị Segoe UI nếu k có thì sẽ hiển thị Times New Roman,k có hiển thị font serif nào đó*/
+font-family:Segoe UI, 'Times New Roman', Times, serif;
+}
+/*ảnh*/
+img
+{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-bottom: 50px;
+}
+/*border*/
+.text-outline-left
+{
+  border-left: 4px solid #EED45B;   
+  padding-left: 10px;
+  color:#FFF8BD; 
+}
+div.main-content
+{
+    width: 680px;
+    display: block;
+    margin:auto;
+    background-color: #774AD8;
+    color:white;
+    border-radius:10px;
+    padding-left:30px;
+}
+.bold
+{
+    background-color:#f1dd86;
+    color:#260822;    
+}
+.main-download
+{
+    text-align: center;
+    width:200px;
+    margin:auto;
+    padding:10px;
+    background-color:#F9C927;
+    border-radius: 10px;
+}
+#footer
+{
+    text-align: center;
+    color:#8A7C95;
+}
