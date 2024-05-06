@@ -1,0 +1,157 @@
+body{
+font-family:'Quicksand',sans-serif;/*khi không có font quicksand thì hiển thị font trong sans-serif*/
+background-color: rgb(229, 229, 216);
+margin:0;
+}
+header{
+    /* background-color: aqua; */
+    display: flex;
+    /*2 thuộc tính đi kèm với display flex */
+    flex-direction: row;
+    justify-content: center;/*thuộc tính căn chỉnh theo phương ngang,đưa vào giữa theo phương ngang*/
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+header li{
+    margin-left:20px;
+}
+#page-logo{
+    /* background-color: rgb(4, 63, 63); */
+    width: 30%;
+}
+#page-logo a{
+    /* background-color: rgb(159, 82, 231); */
+    padding: 10px;
+    color:rgb(255,251,0);
+    text-decoration: none;
+    font-size:3rem;/*3rem~48px:tự xem font đang trên thiết bị bao nhiêu nhân lên với 3-->tương đối*/
+    text-transform: uppercase;
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 2px red;/*đổ bóng chữ*/
+}
+nav{
+    /* background-color: rgb(132, 132, 16); */
+    width: 70%;
+    display: flex;
+    justify-content: end;
+}
+nav ul{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    border-radius:6px;
+    /* background-color:aquamarine; */
+}
+nav ul a:hover{
+    color:black;
+    background-color: yellow;
+    transition: 0.4s;
+}
+/*CSS hero*/
+#hero{
+    height: 800px;
+    background-image:url(../images/ocean.jpg);
+    background-position: center;/*căn ảnh vào giữa*/
+    background-size: cover;/*ảnh phủ toàn bộ height 800px*/
+}
+#hero-content{
+    width: 900px;
+    background-color: rgba(51,47,47,0.8);
+    box-shadow:2px 4px 8px rgb(68,67,67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    top:200px;
+    margin:0 auto;
+}
+#hero-content h1{
+    font-size:50px;
+    text-transform: uppercase;
+    margin:0;
+    color:white;
+}
+#hero-content p{
+    text-transform: uppercase;
+    color:white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+#hero-content a{
+    text-decoration: none;
+    background-color:yellow;
+    padding:10px;
+    color:black;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+#hero-content a:hover{
+    background-color:rgb(180, 168, 13);
+}
+.destination{
+    margin:0 20px;
+    text-transform: uppercase;
+}
+.destination img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destination p{
+    text-align: center;
+    color:rgb(128,127,127);
+    margin:20px 0;
+}
+.destination span{
+    color:rgb(9, 94, 151);
+}
+#destinations {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 40px;
+}
+#highlights {
+    padding: 24px;
+  background:linear-gradient(45deg,rgb(227,255,253),rgb(7, 119, 110));
+}
+#highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    color:rgb(59,65,64);
+    font-size:24px;
+    margin:24px;
+    margin-left: 60px;
+}
+footer{
+    background:linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+    padding:30px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:0;
+}
+footer ul i{
+    color:white;
+    transform: scale(3);
+    padding: 0 40px;
+}
