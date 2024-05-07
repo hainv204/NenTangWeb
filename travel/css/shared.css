@@ -143,15 +143,11 @@ nav ul a:hover{
 footer{
     background:linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
     padding:30px;
+    text-align: center;
 }
-footer ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    margin:0;
-}
-footer ul i{
+
+footer .fa{
+    font-size: 40px;
     color:white;
-    transform: scale(3);
-    padding: 0 40px;
+    margin: 0 8px;
 }
